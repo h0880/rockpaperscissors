@@ -1,0 +1,21 @@
+{
+  "name": "rpsbot",
+  "version": "16.6.2",
+  "description": "Rock Paper Scissors",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "rps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node rps.js"
+  },
+  "author": "Stuart Hobson",
+  "license": "This code is free to use",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "pm2": "^5.1.0"
+  },
+  "keywords": []
+}
